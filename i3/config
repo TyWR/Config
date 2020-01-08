@@ -5,13 +5,12 @@
 # this file and re-run i3-config-wizard(1).
 #
 exec_always --no-startup-id compton
-exec feh --bg-scale .config/wallpaper1.jpg
+exec feh --bg-scale .config/wallpaper2.jpg
 
-for_window [class="^.*"] border pixel 0
 
 gaps inner 15
 gaps outer 0
-gaps top -10
+gaps top -13
 
 for_window [class="firefox"] gaps inner 0
 
@@ -23,7 +22,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Ubuntu Mono Bold 10
+font pango:Terminus (TTF) Bold 11
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -192,11 +191,14 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 
 set $transparent #00000000
+set $background #2e3440
+set $border_color #434c5e
+
 
 bar {
-    height 15
+    height 20
     i3bar_command i3bar --transparency
-    separator_symbol "|||"
+    separator_symbol "|"
     position top
     status_command i3status
 
@@ -205,10 +207,23 @@ bar {
 	   statusline #eceff4
 	   separator #88c0d0
 
-	   focused_workspace  #8fbcbb $transparent #8fbcbb
-        active_workspace   #333333 $transparent #ffffff
-        inactive_workspace #434c5e $transparent #434c5e
+	   focused_workspace  $transparent $transparent #8fbcbb
+        active_workspace   $transparent $transparent #ffffff
+        inactive_workspace $transparent $transparent #eceff4
         urgent_workspace   #2f343a #900000 #ffffff
 	   
     }
 }
+
+
+
+# >>>>>>>>>> Border <<<<<<<<<<<<
+# Border width
+for_window [class="^.*"] border pixel 3
+
+# class                 border  backgr. text    indicator child_border
+client.focused          $border_color #285577 #ffffff $border_color   $border_color
+client.focused_inactive $border_color #5f676a #ffffff $border_color   $border_color
+client.unfocused        $border_color #222222 #888888 $border_color   $border_color
+client.urgent           $border_color #900000 #ffffff $border_color   $border_color
+client.placeholder      $border_color #0c0c0c #ffffff $border_color   $border_color
