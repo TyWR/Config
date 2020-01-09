@@ -1,6 +1,6 @@
 div#notebook {
-    font-family: "Ubuntu";
-    font-size: 12pt;
+    font-family: "Rubik Light";
+    font-size: 15pt;
     line-height: 170%;
     color: #d8dee9;
     -webkit-font-smoothing: antialiased !important;
@@ -8,8 +8,8 @@ div#notebook {
 
 body,
 div.body {
-    font-family: "Ubuntu";
-    font-size: 12pt;
+    font-family: "Rubik Light";
+    font-size: 15pt;
     color: #a2b0c7;
     background-color: #2e3440;
     background: #2e3440;
@@ -25,7 +25,7 @@ body.notebook_app {
 }
 
 a {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     color: #a2b0c7;
     -webkit-font-smoothing: antialiased !important;
 }
@@ -191,14 +191,14 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
 }
 
 div#notebook_toolbar div.dynamic-instructions {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 17px;
     color: #546386;
 }
 
 span#login_widget>.button,
 #logout {
-    font-family: "Proxima Nova", "Ubuntu";
+    font-family: "Proxima Nova", "Rubik Light";
     color: #a2b0c7;
     background: transparent;
     background-color: transparent;
@@ -257,7 +257,7 @@ body>#header {
 }
 
 .list_container {
-    font-size: 12pt;
+    font-size: 15pt;
     color: #a2b0c7;
     border: none;
     text-shadow: none !important;
@@ -285,7 +285,7 @@ body>#header {
 
 .item_icon {
     color: #5e81ac;
-    font-size: 13pt;
+    font-size: 12pt;
     vertical-align: middle;
 }
 
@@ -302,7 +302,7 @@ body>#header {
     margin-left: -1px;
     vertical-align: middle;
     line-height: 1.5em;
-    font-size: 12pt;
+    font-size: 15pt;
     display: inline-table;
     position: static;
 }
@@ -409,7 +409,7 @@ div.list_item:hover {
 }
 
 ul#tabs a {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 13.5pt;
     font-weight: normal;
     font-style: normal;
@@ -417,7 +417,7 @@ ul#tabs a {
 }
 
 .nav-tabs {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 13.5pt;
     font-weight: normal;
     font-style: normal;
@@ -484,8 +484,8 @@ ul#tabs a {
 }
 
 div#notebook {
-    font-family: "Ubuntu";
-    font-size: 12pt;
+    font-family: "Rubik Light";
+    font-size: 15pt;
     padding-top: 4px;
 }
 
@@ -535,8 +535,8 @@ div#header-container {
 
 #header,
 .edit_app #header {
-    font-family: "Ubuntu";
-    font-size: 12pt;
+    font-family: "Rubik Light";
+    font-size: 15pt;
     box-shadow: none;
     background-color: #2e3440;
 }
@@ -585,7 +585,7 @@ p.navbar-text.indicator_area {
 }
 
 .navbar-default {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 12pt;
     background-color: #2e3440;
     border-color: rgba(63, 83, 105, 0.55);
@@ -594,7 +594,7 @@ p.navbar-text.indicator_area {
 }
 
 .navbar-default .navbar-nav>li>a {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 12pt;
     color: #a2b0c7;
     display: block;
@@ -704,8 +704,8 @@ div.notification_widget.info,
 }
 
 .command_mode .modal_indicator:before {
-    font-family: "Ubuntu";
-    font-size: 18px;
+    font-family: "Rubik Light";
+    font-size: 15px;
     color: #88c0d0;
     padding-bottom: 0px;
     vertical-align: -webkit-baseline-middle;
@@ -738,13 +738,13 @@ div.notification_widget.info,
 .item_buttons .running-indicator {
     padding-top: 4px;
     color: #a3be8c;
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
 
 #notification_trusted {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 17px !important;
     color: #5e81ac;
     border: none;
@@ -896,15 +896,15 @@ i.fa.fa-icon {
 
 .fa {
     display: inline-block;
-    font: normal normal normal 10pt/1 "FontAwesome", "Ubuntu";
+    font: normal normal normal 10pt/1 "FontAwesome", "Rubik Light";
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .dropdown-menu {
-    font-family: "Ubuntu";
-    font-size: 12pt;
+    font-family: "Rubik Light";
+    font-size: 15pt;
     box-shadow: none;
     padding: 0px;
     text-align: left;
@@ -915,8 +915,8 @@ i.fa.fa-icon {
 }
 
 .dropdown-menu:hover {
-    font-family: "Ubuntu";
-    font-size: 12pt;
+    font-family: "Rubik Light";
+    font-size: 15pt;
     box-shadow: none;
     padding: 0px;
     text-align: left;
@@ -927,7 +927,7 @@ i.fa.fa-icon {
 }
 
 .dropdown-menu>li>a {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 11.0pt;
     line-height: 1.1;
     display: block;
@@ -965,7 +965,7 @@ i.fa.fa-icon {
 .dropdown-menu>.disabled>a,
 .dropdown-menu>.disabled>a:hover,
 .dropdown-menu>.disabled>a:focus {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 11.0pt;
     font-weight: normal;
     color: #546386;
@@ -998,7 +998,7 @@ div.kse-dropdown>.dropdown-menu,
 
 .btn,
 .btn-default {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     color: #a2b0c7;
     background: #252e3a;
     background-color: #252e3a;
@@ -1088,7 +1088,7 @@ div.kse-dropdown>.dropdown-menu,
 .item_buttons>.btn,
 .item_buttons>.btn-group,
 .item_buttons>.input-group {
-    font-size: 12pt;
+    font-size: 15pt;
     background: transparent;
     background-color: transparent;
     border: 0px solid #252b35;
@@ -1224,7 +1224,7 @@ div.dynamic-buttons>button,
 }
 
 .dropdown-header {
-    font-family: "Ubuntu" !important;
+    font-family: "Rubik Light" !important;
     font-size: 12pt !important;
     color: #88c0d0 !important;
     border-bottom: none !important;
@@ -1234,7 +1234,7 @@ div.dynamic-buttons>button,
 
 span#last-modified.btn.btn-xs.btn-default.sort-action,
 span#sort-name.btn.btn-xs.btn-default.sort-action {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 16px;
     background-color: transparent;
     background: transparent;
@@ -1251,7 +1251,7 @@ span#last-modified.btn.btn-xs.btn-default.sort-action {
 
 button.close {
     border: 0px none;
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 20pt;
     font-weight: normal;
 }
@@ -1296,7 +1296,7 @@ fieldset[disabled] .btn-default.focus {
 
 .input-group-addon {
     padding: 2px 5px;
-    font-size: 12pt;
+    font-size: 15pt;
     font-weight: normal;
     height: auto;
     color: #a2b0c7;
@@ -1386,7 +1386,7 @@ div.modal-footer>button:hover {
 }
 
 .modal-content {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 11.0pt;
     position: relative;
     background: #252b35;
@@ -1398,8 +1398,8 @@ div.modal-footer>button:hover {
 }
 
 .modal-header {
-    font-family: "Ubuntu";
-    font-size: 12pt;
+    font-family: "Rubik Light";
+    font-size: 15pt;
     color: #a2b0c7;
     background: #252b35;
     background-color: #252b35;
@@ -1409,7 +1409,7 @@ div.modal-footer>button:hover {
 }
 
 .modal-content h4 {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 16pt;
     color: #a2b0c7;
     padding: 5px;
@@ -1449,8 +1449,8 @@ div.panel,
 div.panel-default,
 .panel,
 .panel-default {
-    font-family: "Ubuntu";
-    font-size: 12pt;
+    font-family: "Rubik Light";
+    font-size: 15pt;
     background-color: #2d3846;
     color: #a2b0c7;
     margin-bottom: 14px;
@@ -1481,7 +1481,7 @@ div.container-fluid {
 
 div.form-control,
 .form-control {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: initial;
     color: #a2b0c7;
     background-color: #252b35;
@@ -1514,7 +1514,7 @@ textarea {
 
 select.form-control.select-xs {
     height: 33px;
-    font-size: 12pt;
+    font-size: 15pt;
 }
 
 .toolbar select,
@@ -1800,8 +1800,8 @@ div.cell.text_cell.selected.jupyter-soft-selected {
 div.prompt,
 .prompt {
     font-family: "Terminus (TTF)";
-    font-size: 9pt !important;
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 15pt !important;
     color: #546386;
     line-height: 170%;
     padding: 0px;
@@ -1853,7 +1853,8 @@ div.output_wrapper {
 div.output_subarea.output_text.output_stream.output_stdout,
 div.output_subarea.output_text {
     font-family: "Terminus (TTF)";
-    font-size: 12pt !important;
+    font-weight: bold;
+    font-size: 15pt !important;
     line-height: 150% !important;
     background-color: #323a48;
     color: #d8dee9;
@@ -1863,7 +1864,8 @@ div.output_subarea.output_text {
 
 div.output_area pre {
     font-family: "Terminus (TTF)";
-    font-size: 12pt !important;
+    font-weight: bold;
+    font-size: 15pt !important;
     line-height: 151% !important;
     color: #d8dee9;
     border-top-right-radius: 0px;
@@ -1876,7 +1878,7 @@ div.output_area {
 
 div.output_html {
     font-family: "Terminus (TTF)";
-    font-size: 12pt;
+    font-size: 15pt;
     color: #e2e5f2;
     background-color: #323a48;
     background: #323a48;
@@ -1965,10 +1967,9 @@ div.cell.selected .out_prompt_overlay.prompt {
 }
 
 div.text_cell,
-div.text_cell_render pre,
 div.text_cell_render {
-    font-family: "Ubuntu";
-    font-size: 12pt;
+    font-family: "Rubik Light";
+    font-size: 15pt;
     line-height: 130% !important;
     color: #b0bdd7;
     background: #2e3440;
@@ -2003,7 +2004,7 @@ div.cell.text_cell .CodeMirror pre {
 }
 
 div.cell.text_cell.rendered.selected {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     line-height: 170% !important;
     background: #2e3440;
     background-color: #2e3440;
@@ -2011,7 +2012,7 @@ div.cell.text_cell.rendered.selected {
 }
 
 div.cell.text_cell.unrendered.selected {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     line-height: 170% !important;
     background: #2e3440;
     background-color: #2e3440;
@@ -2019,7 +2020,7 @@ div.cell.text_cell.unrendered.selected {
 }
 
 div.cell.text_cell.selected {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     line-height: 170% !important;
     background: #2e3440;
     background-color: #2e3440;
@@ -2027,7 +2028,7 @@ div.cell.text_cell.selected {
 }
 
 .edit_mode div.cell.text_cell.selected {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     line-height: 170% !important;
     background: #2e3440;
     background-color: #2e3440;
@@ -2037,7 +2038,7 @@ div.cell.text_cell.selected {
 div.text_cell.unrendered,
 div.text_cell.unrendered.selected,
 div.edit_mode div.text_cell.unrendered {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     line-height: 170% !important;
     background: #2e3440;
     background-color: #2e3440;
@@ -2075,7 +2076,7 @@ div.cell.text_cell .prompt {
 div.cell.text_cell.rendered .prompt {
     font-family: "Terminus (TTF)";
     font-size: 9.5pt;
-    font-weight: normal;
+    font-weight: bold;
     color: #546386 !important;
     text-align: right !important;
     min-width: 12.5ex !important;
@@ -2086,7 +2087,7 @@ div.cell.text_cell.rendered .prompt {
 div.cell.text_cell.unrendered .prompt {
     font-family: "Terminus (TTF)";
     font-size: 9.5pt;
-    font-weight: normal;
+    font-weight: bold;
     color: #546386 !important;
     text-align: right !important;
     min-width: 12.5ex !important;
@@ -2107,7 +2108,8 @@ div.text_cell.unrendered.selected .prompt {
 
 div.rendered_html code {
     font-family: "Terminus (TTF)";
-    font-size: 12pt;
+    font-weight: bold;
+    font-size: 15pt;
     padding-top: 3px;
     padding-left: 2px;
     color: #d8dee9;
@@ -2135,7 +2137,7 @@ code {
 
 kbd {
     padding: 1px;
-    font-size: 12pt;
+    font-size: 15pt;
     font-weight: 800;
     color: #d8dee9;
     background-color: transparent !important;
@@ -2147,7 +2149,8 @@ pre {
     display: block;
     padding: 8.5px;
     margin: 0 0 9px;
-    font-size: 11.0pt;
+    font-size: 15pt;
+    font-weight: bold;
     line-height: 1.42857143;
     color: #d8dee9;
     background-color: #252e3a;
@@ -2156,7 +2159,7 @@ pre {
 }
 
 div.rendered_html {
-    color: #b0bdd7;
+    color: #eceff4;
 }
 
 .rendered_html *+ul {
@@ -2167,10 +2170,12 @@ div.rendered_html {
 .rendered_html *+p {
     margin-top: .5em;
     margin-bottom: .5em;
+    color: #eceff4;
 }
 
 div.rendered_html pre {
     font-family: "Terminus (TTF)";
+    font-weight: bold;
     font-size: 12pt !important;
     line-height: 170% !important;
     color: #b0bdd7;
@@ -2188,7 +2193,8 @@ div.rendered_html pre {
 div.text_cell_render pre,
 div.text_cell_render code {
     font-family: "Terminus (TTF)";
-    font-size: 12pt !important;
+    font-weight: bold;
+    font-size: 15pt !important;
     line-height: 170% !important;
     color: #b0bdd7;
     background: #2e3440;
@@ -2216,7 +2222,7 @@ div.text_cell_render h4,
 div.rendered_html h4,
 div.text_cell_render h5,
 div.rendered_html h5 {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     margin: 0.4em .2em .3em .2em !important;
 }
 
@@ -2232,7 +2238,7 @@ div.rendered_html h5 {
 
 .rendered_html h1,
 .text_cell_render h1 {
-    color: #88c0d0;
+    color: #b48ead;
     font-size: 200%;
     text-align: center;
     font-style: normal;
@@ -2243,7 +2249,7 @@ div.rendered_html h5 {
 .text_cell_render h2 {
     text-align: left;
     font-size: 170%;
-    color: #eceff4;
+    color: #88c0d0;
     font-style: normal;
     font-weight: lighter;
 }
@@ -2251,7 +2257,7 @@ div.rendered_html h5 {
 .rendered_html h3,
 .text_cell_render h3 {
     font-size: 140%;
-    color: #eceff4;
+    color: #81a1c1;
     font-style: normal;
     font-weight: lighter;
 }
@@ -2259,7 +2265,7 @@ div.rendered_html h5 {
 .rendered_html h4,
 .text_cell_render h4 {
     font-size: 110%;
-    color: #eceff4;
+    color: #5e81ac;
     font-style: normal;
     font-weight: lighter;
 }
@@ -2267,7 +2273,7 @@ div.rendered_html h5 {
 .rendered_html h5,
 .text_cell_render h5 {
     font-size: 100%;
-    color: #dbe1ea;
+    color: #5e81ac;
     font-style: normal;
     font-weight: lighter;
 }
@@ -2276,7 +2282,7 @@ hr {
     margin-top: 8px;
     margin-bottom: 10px;
     border: 0;
-    border-top: 1px solid #88c0d0;
+    border-top: 3px solid #88c0d0;
 }
 
 .rendered_html hr {
@@ -2313,12 +2319,12 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
 }
 
 .rendered_html td {
-    font-family: "Ubuntu" !important;
+    font-family: "Rubik Light" !important;
     font-size: 10pt;
 }
 
 .rendered_html table {
-    font-family: "Ubuntu" !important;
+    font-family: "Rubik Light" !important;
     margin-left: 8px;
     margin-right: auto;
     border: none;
@@ -2329,7 +2335,7 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
 }
 
 .rendered_html thead {
-    font-family: "Ubuntu" !important;
+    font-family: "Rubik Light" !important;
     font-size: 11.0pt !important;
     background: #27313d;
     color: #bbc2e1;
@@ -2364,7 +2370,7 @@ div.widget-area {
 }
 
 div.widget-area a {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 11.0pt;
     font-weight: normal;
     font-style: normal;
@@ -2374,7 +2380,7 @@ div.widget-area a {
 
 div.widget-area a:hover,
 div.widget-area a:focus {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 11.0pt;
     font-weight: normal;
     font-style: normal;
@@ -2456,7 +2462,7 @@ div.widget-label {
 }
 
 .rendered_html :link {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 100%;
     color: #88c0d0;
     text-decoration: underline;
@@ -2470,7 +2476,7 @@ div.widget-label {
 
 .rendered_html :visited:hover,
 .rendered_html :link:hover {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 100%;
     color: #0080aa;
 }
@@ -2521,7 +2527,7 @@ div#nbextensions-configurator-container.container,
 }
 
 div.nbext-selector>nav>.nav>li>a {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 10.5pt;
     padding: 2px 5px;
 }
@@ -2552,7 +2558,7 @@ div.nbext-selector>nav>.nav>li.active:hover {
 }
 
 div.nbext-readme>.nbext-readme-contents>.rendered_html {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 11.5pt;
     line-height: 145%;
     padding: 1em 1em;
@@ -2645,6 +2651,7 @@ span.rendered_html code {
 
 #nbextensions-configurator-container>div.nbext-buttons.tree-buttons.no-padding.pull-right>span>button {
     border: none !important;
+    font-size: 12pt;
 }
 
 button#refresh_running_list {
@@ -2706,14 +2713,14 @@ span.bg-danger.text-danger {
 .kse-input-group-pretty>kbd {
     font-family: "Terminus (TTF)";
     color: #a2b0c7;
-    font-weight: normal;
+    font-weight: bold;
     background: transparent;
 }
 
 .kse-input-group-pretty>kbd {
     font-family: "Terminus (TTF)";
     color: #a2b0c7;
-    font-weight: normal;
+    font-weight: bold;
     background: transparent;
 }
 
@@ -2823,6 +2830,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
 input.raw_input {
     font-family: "Terminus (TTF)";
     font-size: 12pt !important;
+    -webkit-font-smoothing: antialiased;
     color: #d8dee9;
     background-color: #252e3a;
     border-color: #232c37;
@@ -2861,11 +2869,12 @@ video {
 }
 
 .typeahead-field input {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     color: #d8dee9;
     border: none;
     font-size: 28pt;
-    display: inline-block;
+    display: inlin
+    font-size: 12pt;e-block;
     line-height: inherit;
     padding: 3px 10px;
     height: 70px;
@@ -2882,7 +2891,7 @@ body>div.modal.cmd-palette.typeahead-field {
 }
 
 .typeahead-container button {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-size: 28pt;
     background-color: #252b35;
     border: none;
@@ -2922,8 +2931,8 @@ body>div.modal.cmd-palette.typeahead-field {
 
 .typeahead-dropdown,
 .typeahead-list {
-    font-family: "Ubuntu";
-    font-size: 12pt;
+    font-family: "Rubik Light";
+    font-size: 15pt;
     color: #a2b0c7;
     background-color: #202937;
     border: none;
@@ -3084,7 +3093,8 @@ div#short-key-bindings-intro.well,
 
 .terminal-app .terminal {
     font-family: "Terminus (TTF)";
-    font-size: 12pt;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15pt;
     line-height: 170%;
     color: #d8dee9;
     background: #2e3440;
@@ -3223,7 +3233,8 @@ div#pager .ui-resizable-handle {
 div.CodeMirror,
 div.CodeMirror pre {
     font-family: "Terminus (TTF)";
-    font-size: 12pt;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15pt;
     line-height: 170%;
     color: #d8dee9;
 }
@@ -3299,7 +3310,8 @@ div.js-error {
 
 .ipython_tooltip {
     font-family: "Terminus (TTF)";
-    font-size: 12pt;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15pt;
     line-height: 170%;
     background: #363f4e;
     background-color: #363f4e;
@@ -3313,7 +3325,8 @@ div.js-error {
 
 .ipython_tooltip .tooltiptext pre {
     font-family: "Terminus (TTF)";
-    font-size: 12pt;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15pt;
     line-height: 170%;
     background: #363f4e;
     background-color: #363f4e;
@@ -3338,12 +3351,13 @@ div.tooltiptext.bigtooltip {
 
 .cm-s-ipython.CodeMirror {
     font-family: "Terminus (TTF)";
-    font-size: 12pt;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15pt;
     background: #2e3440;
     color: #d8dee9;
     border-radius: 2px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .cm-s-ipython div.CodeMirror-selected {
@@ -3403,7 +3417,7 @@ div.CodeMirror-linenumber,
 }
 
 .cm-s-ipython span.cm-number {
-    color: #5e81ac;
+    color: #b48ead;
 }
 
 .cm-s-ipython span.cm-property {
@@ -3416,7 +3430,7 @@ div.CodeMirror-linenumber,
 
 .cm-s-ipython span.cm-keyword {
     color: #81a1c1;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .cm-s-ipython span.cm-string {
@@ -3449,11 +3463,12 @@ div.CodeMirror-linenumber,
 
 .cm-s-ipython span.cm-def {
     color: #88c0d0;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .cm-s-ipython span.cm-error {
-    background: rgba(191, 97, 106, .4);
+    background: #bf616a;
+    color: #d08770;
 }
 
 .cm-s-ipython span.cm-tag {
@@ -3511,7 +3526,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 }
 
 div.cell.text_cell .cm-s-default .cm-header {
-    font-family: "Ubuntu";
+    font-family: "Rubik Light";
     font-weight: normal;
     color: #88c0d0;
     margin-top: 0.3em !important;
@@ -3618,7 +3633,9 @@ body :focus .MathJax {
     margin-left: 2px;
     overflow: auto;
     font-family: "Terminus (TTF)";
-    font-size: 12pt;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15pt;
     color: #d8dee9;
     width: auto;
 }
