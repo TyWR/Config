@@ -12,6 +12,7 @@ alias oldvim="vim"
 export EDITOR=vim
 alias icat="kitty +kitten icat"
 alias lg="lazygit"
+alias ra="ranger"
 
 # Fix some bugs with Python
 export LC_ALL=en_US.UTF-8
