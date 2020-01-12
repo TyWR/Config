@@ -1,0 +1,8 @@
+delete
+
+s
+shell rmtrash -rf Vidéos
+shell rmtrash -rf Musique
+shell touch blabla
+open_with 
+shell rmtrash -rf blabla
