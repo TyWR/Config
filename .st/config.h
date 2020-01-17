@@ -7,7 +7,8 @@
  */
 static char *font = "Terminus (TTF):pixelsize=25:antialias=true:autohint=true";
 static char *font2[] = { "Inconsolata for Powerline:pixelsize=16:antialias=true:autohint=true" };
-static int borderpx = 2;
+static char *font3[] = { "Symbola:pixelsize=16:antialias=true:autohint=true" };
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -194,8 +195,8 @@ ResourcePref resources[] = {
  */
 static MouseShortcut mshortcuts[] = {
 	/* button               mask            string */
-	{ Button4,              XK_NO_MOD,      "\031" },
-	{ Button5,              XK_NO_MOD,      "\005" },
+	/* { Button4,              XK_NO_MOD,      "\031" }, */
+	/* { Button5,              XK_NO_MOD,      "\005" }, */
 };
 
 /* Internal keyboard shortcuts. */
@@ -210,6 +211,8 @@ MouseKey mkeys[] = {
 	{ Button5,              MODKEY,         kscrolldown,    {.i =  1} },
 	{ Button4,              TERMMOD,        zoom,           {.f =  +1} },
 	{ Button5,              TERMMOD,        zoom,           {.f =  -1} },
+	{ Button4,              XK_NO_MOD,      kscrollup,      {.i =  1} },
+	{ Button5,              XK_NO_MOD,      kscrolldown,    {.i =  1} },
 };
 
 static Shortcut shortcuts[] = {
