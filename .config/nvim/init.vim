@@ -27,6 +27,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'nvie/vim-flake8'
+Plug 'junegunn/goyo.vim'
 
 call plug#end()
 
@@ -86,3 +87,6 @@ let g:deoplete#enable_at_startup = 1
 
 " Flake8
 autocmd FileType python map <buffer> <C-f> :call flake8#Flake8()<CR>
+
+" Goyo command
+:command! Focus Goyo
