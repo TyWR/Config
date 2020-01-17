@@ -78,7 +78,8 @@ augroup END
 highlight Keyword cterm=italic ctermfg=5
 
 " Set cursor variable
-set guicursor+=n-v-i:ver30-blinkon200-blinkoff150
+set guicursor+=v-i:ver30-blinkon200-blinkoff150
+set guicursor+=n:block-blinkon200-blinkoff150
 
 " Set deoplete
 let g:deoplete#enable_at_startup = 1
