@@ -1,3 +1,7 @@
 .jupyter/migrated
 texput.log
 .jupyter/nbconfig/notebook.json
+
+.st/st
+.st/st.o
+.st/x.o
