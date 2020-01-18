@@ -11,6 +11,6 @@ conda_env() {
 }
 
 PROMPT='
- %{$fg_bold[blue]%}%{%{$fg_bold[cyan]%}%3c%{$reset_color%}$(git_prompt_info)$(conda_env)
- %{$fg_bold[blue]%}ᗈ %{$reset_color%}'
+  %{$fg_bold[blue]%}%{%{$fg_bold[cyan]%}%3c%{$reset_color%}$(git_prompt_info)$(conda_env)
+ %{$fg_bold[blue]%}∙> %{$reset_color%}'
 
