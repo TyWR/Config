@@ -85,7 +85,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.75;
+float alpha = 0.5;
 
 /* Terminal colors (16 first used in escape sequence) */
 
@@ -93,7 +93,7 @@ const char *colorname[] = {
   "#3b4252", /*  0: nord1 */
   "#bf616a", /*  1: nord11 */
   "#a3be8c", /*  2: nord14 */
-  "#ebcb8b", /*  3: nord13 */
+  "#5e81ac", /*  3: nord13 */
   "#81a1c1", /*  4: nord9 */
   "#b48ead", /*  5: nord15 */
   "#88c0d0", /*  6: nord8 */
@@ -101,10 +101,10 @@ const char *colorname[] = {
   "#4c566a", /*  8: nord3 */
   "#bf616a", /*  9: nord11 */
   "#a3be8c", /* 10: nord14 */
-  "#ebcb8b", /* 11: nord3 */
+  "#5e81ac", /* 11: nord3 */
   "#81a1c1", /* 12: nord9 */
   "#b48ead", /* 13: nord15 */
-  "#8fbcbb", /* 14: nord7 */
+  "#88c0d0", /* 14: nord7 */
   "#eceff4", /* 15: nord6 */
   [255] = 0,
   // defaults
