@@ -1646,7 +1646,7 @@ div.cell {
 div.cell.selected {
     background: #2e3440;
     background-color: #2e3440;
-    border: medium solid #2e3440;
+    border: medium solid #4c566a;
     padding: 0px;
     border-radius: 3px;
 }
