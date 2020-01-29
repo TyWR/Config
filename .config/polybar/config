@@ -18,8 +18,8 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #00000000
-background-alt = #00000000
+background = #00242933
+background-alt = #00242933
 ;foreground = ${xrdb:color7:#222}
 foreground = #88c0d0
 foreground-alt = #555
@@ -30,43 +30,46 @@ alert = #bf616a
 [bar/tywr]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 25
-;offset-x = 1%
-;offset-y = 1%
+height = 16
+offset-x = 0%
+offset-y = 0
 radius = 0
 fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 1
+line-size = 10
 line-color = #f00
 
-border-size = 1
-border-color = #00000000
+border-size = 4
+border-color = #00434c5e
 
-padding-left = 2
+margin-left = 10
+
+padding-left = 1
 padding-right = 0
 
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = "Terminus (TTF):antialias=true:size=12:weight=bold"
+font-0 = "Terminus (TTF):pixelsize=11:weight=bold;1"
 font-1 = "FontAwesome:size=12:antialias=true:weight=bold"
 
 modules-left = i3
-modules-center = xbacklight date pulseaudio
-modules-right = battery
+modules-center = date
+modules-right = pulseaudio battery
 
 tray-position = right
-tray-padding = 15
-tray-background = #00000000
+tray-maxsize = 16
+tray-padding = 10
+tray-background = #00242933
 tray-transparent = true
 
 ;wm-restack = bspwm
 ;wm-restack = i3
 
-;override-redirect = true
+override-redirect = true
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev
@@ -144,7 +147,7 @@ label-mode-foreground = #88c0d0
 label-mode-background = ${colors.primary}
 
 ; focused = Active workspace on focused monitor
-label-focused =  %index%<∙ 
+label-focused = %index%<∙ 
 label-focused-background = ${colors.background-alt}
 label-focused-underline= #00000000
 label-focused-padding = 1
@@ -233,11 +236,11 @@ format-disconnected =
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = x
+ramp-signal-1 = ∙ 
+ramp-signal-2 = ∙∙  
+ramp-signal-3 = ∙∙∙ 
+ramp-signal-4 = ∙∙∙∙ 
 ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
@@ -271,7 +274,7 @@ format-prefix =
 format-prefix-foreground = #88c0d0
 format-underline = #00000000
 
-label = %date% %time%
+label = %time%
 label-foreground = #88c0d0
 
 [module/pulseaudio]
