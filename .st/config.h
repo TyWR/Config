@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Terminus (TTF):pixelsize=25:antialias=true:autohint=true";
+static char *font = "Terminus (TTF):pixelsize=21:antialias=true:autohint=true";
 static char *font2[] = { "Inconsolata for Powerline:pixelsize=16:antialias=true:autohint=true" };
 static char *font3[] = { "Symbola:pixelsize=16:antialias=true:autohint=true" };
 static int borderpx = 0;
@@ -85,17 +85,17 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.5;
+float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 
 const char *colorname[] = {
   "#3b4252", /*  0: nord1 */
-  "#bf616a", /*  1: nord11 */
+  "#b48ead", /*  1: nord11 */
   "#a3be8c", /*  2: nord14 */
   "#5e81ac", /*  3: nord13 */
   "#81a1c1", /*  4: nord9 */
-  "#b48ead", /*  5: nord15 */
+  "#8fbcbb", /*  5: nord15 */
   "#88c0d0", /*  6: nord8 */
   "#e5e9f0", /*  7: nord5 */
   "#4c566a", /*  8: nord3 */
@@ -109,7 +109,8 @@ const char *colorname[] = {
   [255] = 0,
   // defaults
   [256] = "#d8dee9", /* 256: nord4 */
-  [257] = "#2e3440", /* 257: nord0 */
+  // [257] = "#2e3440", /* 257: nord0 */
+  [257] = "#242933", /* 257: nord0 */
 };
 
 /*
