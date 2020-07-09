@@ -4,15 +4,20 @@ set mouse=a
 set splitright
 set tags=tags
 
-" Auto terminal without lines
-:command Term sp | set nonu | resize 3 | terminal 
-
 filetype plugin indent on
 " show existing tab with 4 spaces width
 set tabstop=5
 " when indenting with '>', use 4 spaces width
 set shiftwidth=4
 
+
+" =============================================================
+" /  ___| |              | |           | |      
+" \ `--.| |__   ___  _ __| |_ ___ _   _| |_ ___ 
+"  `--. \ '_ \ / _ \| '__| __/ __| | | | __/ __|
+" /\__/ / | | | (_) | |  | || (__| |_| | |_\__ \
+" \____/|_| |_|\___/|_|   \__\___|\__,_|\__|___/
+" =============================================================
 " Change panel shortcuts
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -21,7 +26,10 @@ nnoremap <C-H> <C-W><C-H>
 nmap ++ :vsp<CR>
 nmap <C-O> :bn<CR>
 nmap <C-I> :bp<CR>
+nmap <C-P> :bd<CR>
 nmap <C-F> :Lines<CR>
+nmap <C-D> :Files<CR>
+nmap <C-S> :Buffers<CR>
 
 nnoremap <A-J> <C-E>
 nnoremap <A-K> <C-Y>
@@ -30,8 +38,22 @@ nnoremap <A-K> <C-Y>
 map <Down> <C-E>
 map <Up> <C-Y>
 
+" Add easy nbreakpoint shortcut
+nnoremap <silent> <C-B> :let a='import pdb; pdb.set_trace()'\|put=a<cr>
 
-" Install the plugins
+" Add easy jump to definition
+nmap gd :call CocAction('jumpDefinition', 'drop')<CR>
+
+
+" =============================================================
+" | ___ \ |           (_)          
+" | |_/ / |_   _  __ _ _ _ __  ___ 
+" |  __/| | | | |/ _` | | '_ \/ __|
+" | |   | | |_| | (_| | | | | \__ \
+" \_|   |_|\__,_|\__, |_|_| |_|___/
+"                 __/ |            
+"                |___/
+" =============================================================
 call plug#begin()
 
 Plug 'neoclide/coc.nvim',
@@ -52,6 +74,7 @@ Plug 'rbgrouleff/bclose.vim'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
@@ -61,8 +84,6 @@ set fillchars=vert:█
 let g:python3_host_prog='/Users/tanguy/.miniconda3/bin/python'
 
 au BufEnter *.py :RainbowParentheses<CR>
-
-
 
 " =============================================================
 " |  ___|___  /|  ___|
@@ -155,7 +176,7 @@ augroup python_syntax_extra
   autocmd!
   autocmd! Syntax python :syn keyword Keyword self
 augroup END
-highlight Keyword cterm=italic ctermfg=5
+highlight Keyword ctermfg=5
 highlight Float ctermfg=1
 highlight Number ctermfg=1
 highlight Error cterm=underline ctermfg=1 gui=undercurl ctermbg=None
